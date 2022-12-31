@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hogwarts Login</title>
+    <style>
+        body {
+            background-size: cover;
+        }
+
+        form {
+            background-color: hsla(0, 0%, 0%, 0.6);
+            border-radius: 2px;
+            width: fit-content;
+            height: fit-content;
+            padding: 15px;
+            margin: auto;       
+            margin-top: 40px;    
+        }
+
+        div {
+            border-style:solid;
+            border-color:white;
+            border-radius: 2px;
+            padding: 15px;
+            padding-top: 75px;
+        }
+
+        label {
+            color: white;
+        }
+
+        #login-button {
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: red;
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+
+        }
+
+        #logo {
+            border-radius: 50%;
+            align-content: center;
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 65px;
+            height: 65px;
+
+        }
+
+        #center{
+            font-weight: bold;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+        }
+
+
+    
+    
+    </style>
+</head>
+
+<body background="Images\Hogwarts.jpeg" background> 
+
+    <form>
+        <img src="Images\Hufflepuff.png" alt="Hufflepuff Shield" id="logo">
+        <div id="square" style="position: inherit;">
+            <label id=center><span style="font-size: x-large;">L</span>ogin Here</label><br>
+            <br>
+            <label for="username"><strong>Name</strong></label><br>
+            <input type="text" id="username" name="username" placeholder="Name" style="width: 200px"><br>
+            <br>
+            <label for="password"><strong>Password</strong></label><br>
+            <input type="password" id="password" name="password" placeholder="Password" style="width: 200px"><br>
+            <br>
+            <input type="submit" id="login-button" value="Login"><br>
+            <br>
+            <a href="#">Forgot your password?</a><br>
+            <a href="#">Don't have an account?</a>
+
+        </div>
+    </form>
+    
+
+</body>
+
+
+
+</html>
