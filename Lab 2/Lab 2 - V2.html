@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hogwarts Login</title>
+    <style>
+        body {
+            background-size: cover;
+        }
+
+        form {
+            background-color: hsla(0, 0%, 0%, 0.6);
+            border-radius: 2px;
+            width: 250px;
+            height: height(square);
+            padding: 15px;
+            margin: auto;       
+            margin-top: 40px;  
+            position: relative;
+            top: 0; 
+        }
+
+        legend {
+            margin-left: calc(50% - 40px);
+        }
+
+        label {
+            color: white;
+        }
+
+        #login-button {
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: red;
+            border-radius: 10px;
+            border-color: rgba(0, 0, 0, 0);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        #logo {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+        }
+
+        #center{
+            font-weight: bold;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+        }
+
+    </style>
+</head>
+
+<body background="Images\Hogwarts.jpeg" background> 
+
+    <form>
+        
+        <fieldset>
+            <legend><img src="Images\Hufflepuff.png" alt="Hufflepuff Shield" id="logo"></legend>
+            <label id=center style="font-size: x-large;"><span style="font-size: xx-large;">L</span>ogin Here</label><br>
+            <br>
+            <label for="username"><strong>Name</strong></label><br>
+            <input type="text" id="username" name="username" placeholder="Name" style="width: 200px"><br>
+            <br>
+            <label for="password"><strong>Password</strong></label><br>
+            <input type="password" id="password" name="password" placeholder="Password" style="width: 200px"><br>
+            <br>
+            <input type="submit" id="login-button" value="Login"><br>
+            <br>
+            <a href="#">Forgot your password?</a><br>
+            <a href="#">Don't have an account?</a>
+
+        </fieldset>
+        
+    </form>
+    
+
+</body>
+
+
+
+</html>
